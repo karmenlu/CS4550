@@ -1,0 +1,30 @@
+#calc-body {
+  background-color: #ff1493;
+  width: 300px;
+  height: 300px;
+  padding: 20px 10px 0px 10px;
+  border-radius: 10px;
+  margin: 3em;
+}
+#calc-screen {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 257px;
+  margin: 20px auto;
+  overflow: hidden;
+
+}
+#btn-pad {
+  background-color: #afeeee;
+  width: 257px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  width: 60px;
+  height: 40px;
+  background-color: light-grey;
+}
