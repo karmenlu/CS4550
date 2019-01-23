@@ -1,0 +1,12 @@
+[Unit]
+Description=Service for cs4550 hw03
+After=network.target
+
+[Service]
+Type=forking
+User=hw03user
+WorkingDirectory=/home/hw03user/elixir-practice
+ExecStart=/bin/bash start.sh
+
+[Install]
+WantedBy=multi-user.target
